@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
-    <section className=" md:h-screen snap-start bg-gray-400 dark:bg-black p-5" id="Contacts">
+    <section className="h-screen snap-start bg-gray-400 dark:bg-black p-5" id="Contacts">
       <div className="h-1/2 flex flex-col items-center justify-center">
         <h3 className="text-xl dark:text-white">Get In Touch</h3>
         <h3 className="font-bold text-5xl dark:text-white">Contact Me</h3>

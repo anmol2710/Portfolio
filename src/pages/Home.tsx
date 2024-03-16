@@ -9,7 +9,7 @@ import Projects from "../components/Projects";
 const Home = () => {
   return (
     <div className="">
-      <section className="md:h-screen snap-start pb-6 dark:bg-slate-700">
+      <section className=" min-h-screen md:h-screen snap-start pb-6 dark:bg-slate-700">
         <Navbar />
         <div className="flex items-center justify-center mt-10 md:mt-28">
           <div className="flex flex-wrap items-center justify-center gap-5 w-3/4 md:gap-20">
