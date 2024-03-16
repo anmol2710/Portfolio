@@ -9,9 +9,9 @@ const Projects = () => {
           <h1 className="font-bold text-5xl dark:text-white">Projects</h1>
         </div>
 
-        <div className=' flex items-center flex-wrap justify-center gap-10'>
+        <div className=' flex items-center flex-wrap justify-center md:gap-10'>
         <div className='flex items-center justify-center mt-7'>
-            <div className=' h-[350px] w-[250px] border border-black rounded-3xl py-7 px-5 flex flex-col items-center justify-between dark:text-white dark:border-white'>
+            <div className=' h-[350px] w-[250px] border border-black rounded-3xl py-7 px-5 flex flex-col items-center justify-between dark:text-white dark:border-white shadow-md shadow-black dark:shadow-white'>
                 <h1 className=' text-3xl font-bold text-center'>E-Notes Frontend</h1>
                 <div className=' text-justify mt-5'>
                     <p>I have created a website for my class students. In which they can Sign Up and get their class Notes and Lab Practical.</p>
@@ -23,7 +23,7 @@ const Projects = () => {
             </div>
         </div>
         <div className='flex items-center justify-center mt-7'>
-            <div className=' h-[350px] w-[250px] border border-black rounded-3xl py-7 px-5 flex flex-col items-center justify-between dark:text-white dark:border-white'>
+            <div className=' h-[350px] w-[250px] border border-black rounded-3xl py-7 px-5 flex flex-col items-center justify-between dark:text-white dark:border-white shadow-md shadow-black dark:shadow-white'>
                 <h1 className=' text-3xl font-bold text-center'>E-Notes Backend</h1>
                 <div className=' text-justify mt-5'>
                     <p>This is the backend used by my previous site E-Notes. It store all users signup and login data.</p>
@@ -35,7 +35,7 @@ const Projects = () => {
             </div>
         </div>
         <div className='flex items-center justify-center mt-7'>
-            <div className=' h-[350px] w-[250px] border border-black rounded-3xl py-7 px-5 flex flex-col items-center justify-between dark:text-white dark:border-white'>
+            <div className=' h-[350px] w-[250px] border border-black rounded-3xl py-7 px-5 flex flex-col items-center justify-between dark:text-white dark:border-white shadow-md shadow-black dark:shadow-white'>
                 <h1 className=' text-3xl font-bold text-center'>E-Notes Android</h1>
                 <div className=' text-justify mt-5'>
                     <p>I have created a android app for my class students. In which they can Sign Up and get their class Notes and Lab Practical.</p>

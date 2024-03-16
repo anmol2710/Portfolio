@@ -8,7 +8,7 @@ const Experience = () => {
           <h1 className="font-bold text-5xl dark:text-white">Experience</h1>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-10 mt-10 p-5">
-            <div className=" flex flex-col items-center gap-4 rounded-2xl p-5 w-[350px] h-[370px] border border-black md:w-[500px] md:h-[350px] dark:border-white">
+            <div className=" flex flex-col items-center gap-4 rounded-2xl p-5 w-[350px] h-[370px] border border-black md:w-[500px] md:h-[350px] dark:border-white shadow-md shadow-black dark:shadow-white">
               <div>
                 <h1 className=" text-3xl text-slate-700 font-semibold text-center dark:text-white">
                   Frontend Development
@@ -41,7 +41,7 @@ const Experience = () => {
                 </div>
               </div>
           </div>
-          <div className=" flex flex-col items-center gap-4 rounded-2xl p-5 w-[350px] h-[350px] border border-black md:w-[500px] dark:border-white">
+          <div className=" flex flex-col items-center gap-4 rounded-2xl p-5 w-[350px] h-[350px] border border-black md:w-[500px] dark:border-white shadow-md shadow-black dark:shadow-white">
             <div>
               <h1 className=" text-3xl text-slate-700 font-semibold text-center dark:text-white">
                 Backend Development

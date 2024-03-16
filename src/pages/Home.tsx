@@ -13,7 +13,7 @@ const Home = () => {
         <Navbar />
         <div className="flex items-center justify-center mt-10 md:mt-28">
           <div className="flex flex-wrap items-center justify-center gap-5 w-3/4 md:gap-20">
-            <div className="bg-slate-400 rounded-full overflow-hidden dark:bg-white">
+            <div className="bg-slate-400 rounded-full overflow-hidden shadow-lg shadow-black  dark:bg-white ">
               <img className="w-96" src={image} alt="" />
             </div>
             <div className="flex flex-col items-center gap-2 text-center">
