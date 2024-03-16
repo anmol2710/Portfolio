@@ -21,14 +21,14 @@ const Contact = () => {
         </div>
       </div>
       <div className="h-1/2 flex flex-col items-center justify-center pt-32 ">
-      <ul className="flex gap-6 text-xl flex-wrap font-medium">
-              <li className="p-3 border-b-2 border-transparent hover:border-slate-700 dark:text-white dark:hover:border-white">
+      <ul className="flex md:gap-6 text-xl flex-wrap font-medium">
+              <li className="md:p-3 px-2 border-b-2 border-transparent hover:border-slate-700 dark:text-white dark:hover:border-white">
                 <a href="#Experience">Experience</a>
               </li>
-              <li className="p-3 border-b-2 border-transparent hover:border-slate-700 dark:text-white dark:hover:border-white">
+              <li className="md:p-3 px-2 border-b-2 border-transparent hover:border-slate-700 dark:text-white dark:hover:border-white">
                 <a href="#Projects">Projects</a>
               </li>
-              <li className="p-3 border-b-2 border-transparent hover:border-slate-700 dark:text-white dark:hover:border-white">
+              <li className="md:p-3 px-2 border-b-2 border-transparent hover:border-slate-700 dark:text-white dark:hover:border-white">
                 <a href="#Contacts">Contact</a>
               </li>
             </ul>
