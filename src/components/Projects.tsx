@@ -18,7 +18,7 @@ const Projects = () => {
                 </div>
                     <div className=' w-full flex items-center justify-between mt-5'>
                         <Link to="https://github.com/anmol2710/E-Note-Frontend" target='_blank' className=' bg-black text-white px-3 py-2 rounded-2xl font-semibold dark:bg-white dark:text-black'>Github</Link>
-                        <Link to="https://e--notes.vercel.app/" target='_blank' className=' border border-white text-white px-3 py-2 rounded-2xl font-semibold'>Live Demo</Link>
+                        <Link to="https://e--notes.vercel.app/" target='_blank' className=' border border-black px-3 py-2 rounded-2xl font-semibold dark:border-white dark:text-white'>Live Demo</Link>
                     </div>
             </div>
         </div>
@@ -30,7 +30,7 @@ const Projects = () => {
                 </div>
                     <div className=' w-full flex items-center justify-between mt-5'>
                         <Link to="https://github.com/anmol2710/E-notes-backend" target='_blank' className=' bg-black text-white px-3 py-2 rounded-2xl font-semibold dark:bg-white dark:text-black'>Github</Link>
-                        <Link to="https://e-notes-backend.vercel.app/" target='_blank' className=' border border-white text-white px-3 py-2 rounded-2xl font-semibold '>Live Demo</Link>
+                        <Link to="https://e-notes-backend.vercel.app/" target='_blank' className=' border border-black px-3 py-2 rounded-2xl font-semibold dark:border-white dark:text-white '>Live Demo</Link>
                     </div>
             </div>
         </div>
@@ -38,11 +38,11 @@ const Projects = () => {
             <div className=' h-[350px] w-[250px] border border-black rounded-3xl py-7 px-5 flex flex-col items-center justify-between dark:text-white dark:border-white'>
                 <h1 className=' text-3xl font-bold text-center'>E-Notes Android</h1>
                 <div className=' text-justify mt-5'>
-                    <p>I have created a website for my class students. In which they can Sign Up and get their class Notes and Lab Practical.</p>
+                    <p>I have created a android app for my class students. In which they can Sign Up and get their class Notes and Lab Practical.</p>
                 </div>
                     <div className=' w-full flex items-center justify-between mt-5'>
                         <Link to="https://github.com/anmol2710/E-Notes-Android" target='_blank' className=' bg-black text-white px-3 py-2 rounded-2xl font-semibold dark:bg-white dark:text-black'>Github</Link>
-                        <Link to="https://github.com/anmol2710/E-Notes-Android" target='_blank' className=' border border-white text-white px-3 py-2 rounded-2xl font-semibold'>Live Demo</Link>
+                        <Link to="https://github.com/anmol2710/E-Notes-Android" target='_blank' className=' border border-black px-3 py-2 rounded-2xl font-semibold dark:border-white dark:text-white'>Live Demo</Link>
                     </div>
             </div>
         </div>
