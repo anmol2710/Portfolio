@@ -19,12 +19,12 @@ const Home = () => {
             <div className="flex flex-col items-center gap-2 text-center">
               <p className="text-xl font-medium ">Hello, I'm</p>
               <h1 className="text-3xl font-bold ">Anmol Garg</h1>
-              <h3 className="text-2xl font-semibold text-gray-600 font-sans ">
+              <h3 className="text-2xl font-semibold text-gray-600 font-sans">
                 Learning Full Stack Dev
               </h3>
               <div className="flex gap-3 ">
-                <Link to="https://www.linkedin.com/in/anmol-garg27/" target="_blank"><i className="fa-brands fa-linkedin text-3xl"></i></Link>
-                <Link to="https://github.com/anmol2710" target="_blank"><i className="fa-brands fa-square-github text-3xl"></i></Link>
+                <Link to="https://www.linkedin.com/in/anmol-garg27/" target="_blank"><i className="fa-brands fa-linkedin text-3xl bg-gradient-to-r from-slate-600 to-slate-800 bg-clip-text text-transparent"></i></Link>
+                <Link to="https://github.com/anmol2710" target="_blank"><i className="fa-brands fa-square-github text-3xl bg-gradient-to-r from-slate-600 to-slate-800 bg-clip-text text-transparent"></i></Link>
               </div>
             </div>
           </div>

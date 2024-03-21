@@ -9,7 +9,7 @@ const Navbar = () => {
       <nav className="flex items-center justify-center py-10">
         <div className="flex items-center justify-around w-3/4">
           <div>
-            <h1 className="text-3xl font-bold ">
+            <h1 className="text-3xl font-bold">
               <Link to="/">Anmol Garg</Link>
             </h1>
           </div>

@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
-    <section className="h-screen snap-start bg-gray-400 p-5" id="Contacts">
+    <section className="h-screen snap-start p-5" id="Contacts">
       <div className="h-1/2 flex flex-col items-center justify-center">
         <h3 className="text-xl">Get In Touch</h3>
         <h3 className="font-bold text-5xl">Contact Me</h3>
-        <div className=" flex flex-col gap-3 items-center mt-10 p-8 rounded-3xl border border-black shadow-md bg-black md:flex-row md:gap-6 ">
-          <div className=" flex items-center gap-2 text-white">
+        <div className=" flex flex-col gap-3 items-center mt-10 p-8 rounded-lg border-2 border-black shadow-md bg-black md:flex-row md:gap-6 ">
+          <div className=" flex items-center gap-2 text-white font-semibold">
             <i className="fa-solid fa-envelope"></i>
             <p>anmolgarg271005@gmail.com</p>
           </div>
-          <div className=" flex items-center gap-2 text-white">
+          <div className=" flex items-center gap-2 text-white font-semibold">
             <Link to="/">
               <i className="fa-brands fa-linkedin"></i>
             </Link>
