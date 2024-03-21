@@ -8,7 +8,7 @@ import Projects from "../components/Projects";
 
 const Home = () => {
   return (
-    <div className="">
+    <div className="bg-gradient-to-r from-teal-400 to-yellow-200">
       <section className=" min-h-screen md:h-screen snap-start pb-6">
         <Navbar />
         <div className="flex items-center justify-center mt-10 md:mt-28">
